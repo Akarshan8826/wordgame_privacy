@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: word-circle-backend
+    runtime: node
+    buildCommand: npm run check
+    startCommand: npm start
+    healthCheckPath: /health

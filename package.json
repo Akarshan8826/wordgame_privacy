@@ -1,0 +1,13 @@
+{
+  "name": "word-circle-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy policy website and health endpoint for Word Circle",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
